@@ -71,14 +71,11 @@ Publication of the model in a production environment in the cloud (Heroku) so th
 # 6. Model Performance
 
 # 7. Business Results
-Now, with the final model implemented, the business questions of the initial problem of the Insurance All company will be answered.
+
+![diagram!](diagram_final.png)
 
 7.1 Business Questions
-
-
-
 7.2 Revenue Business Performance
-
 
 # 8. Model in Production
 
