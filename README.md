@@ -6,6 +6,8 @@ The following context is completely fictitious, the company, the context and the
 # Introduction
 This is a data science clustering project done for a company called All In One Place, which aims to create a loyalty program for its most valued customers based on their purchases.
 
+
+
 ### Solution Planning
 
 * [1. Description and Business Problem ](#1-description-and-business-problem)
@@ -21,14 +23,27 @@ This is a data science clustering project done for a company called All In One P
 
 # 1. Description and Business Problem
 ## 1.1 Description and Context
+The company All in one Place is a Multibrand Outlet company that sells second-line products from various brands at a lower price through E-Commerce.
 
-## 1.2 The Challenge
+After a little over a year of operation, the marketing team realized that some of its base customers buy more expensive products with high frequency and consequently contribute with a large portion of the company's revenue.
 
-## 1.3 Business Problem
+Based on this perception, the marketing team decided to create a loyalty program for the best customers in the base, called "INSIDERS". As the marketing team does not have an effective and accurate method to estimate who are the most valuable customers, the data team was asked to select these Insiders using data manipulation and machine learning techniques.
 
-## 1.4 Solution Planning
 
-Delivery Method 
+## 1.2 The Challenge and Business Problem
+
+The main challenge then is to determine who are the eligible customers to participate in the "Insiders" groups. In possession of this list, the marketing team will carry out a sequence of personalized and exclusive actions for the group, in order to increase revenue and purchase frequency, as well as customer satisfaction with the company.
+
+In addition to the creation of this group of Insiders, some business questions must be answered, they are:
+* Who are the people eligible to participate in the Insiders program?
+* How many customers will be part of the group?
+* What are the main characteristics of these customers?
+* What is the percentage of revenue contribution from Insiders?
+* What is the revenue expectation of this group for the coming months?
+* What are the conditions for a person to be eligible for Insiders?
+* What are the conditions for a person to be removed from Insiders?
+* What is the guarantee that the Insiders program is better than the rest of the base?
+* What actions can the marketing team take to increase revenue?
 
 # 2. Database and Business Assumptions
 The attributes of each customer can be described by:
