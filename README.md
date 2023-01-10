@@ -45,8 +45,13 @@ In addition to the creation of this group of Insiders, some business questions m
 * What is the guarantee that the Insiders program is better than the rest of the base?
 * What actions can the marketing team take to increase revenue?
 
-# 2. Database and Business Assumptions
-The attributes of each customer can be described by:
+# 2. Business Assumptions
+* Invoices which the unit price is lower than 0.04 were removed;
+* New id's were created for the customers with no Id to maintain their buying behavior;
+* If the quantity of items are negative, it means that the item was returned by the customer.
+* Invoice numbers with C on their name were considered as a invoice of type 'returned'.
+* Some bad users were deleted based on their strange behaviour and not meaningful actions. 
+* Stock Codes such as 'POST', 'D', 'M', 'PADS', 'DOT', 'CRUK', 'S', 'AMAZONFEE', 'm','DCGSSBOY', 'DCGSSGIRL', 'B' were deleted due to their not explicit meaning.
 
 # 3. Solution Strategy
 ### Step 01. Data Description
