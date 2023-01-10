@@ -1,22 +1,23 @@
-# jbm-high-value-customers-insiders
-Insiders Program Project
+# Insiders Program for an E-Commerce Company
+Insiders Program Project 
+
+The following context is completely fictitious, the company, the context and the CEO. The business questions are also fictional but were made in an attempt to exemplify how they would be required in a business work environment.
 
 # Introduction
-
-
-This project is part of the "DS Community", which is a study environment that promotes the learning, execution, and discussion of Data Science projects.
+This is a data science clustering project done for a company called All In One Place, which aims to create a loyalty program for its most valued customers based on their purchases.
 
 ### Solution Planning
-* 1. Description and Business Problem
-* 2. Database and Business Assumptions
-* 3. Solution Strategy
-* 4. Top 4 Data Insights
-* 5. Machine Learning Model Selection
-* 6. Model Performance
-* 7. Business Results
-* 8. Model in Production
-* 9. Conclusion
-* 10. Learning and Future Work
+
+* [1. Description and Business Problem ](#1-description-and-business-problem)
+* [2. Database and Business Assumptions](#2-database-and-business-assumptions)
+* [3. Solution Strategy ](#3-solution-strategy)
+* [4. Top Insights ](#4-top-insights)
+* [5. Machine Learning Model Selection](#5-machine-learning-model-selection)
+* [6. Model Performance ](#6-model-performance)
+* [7. Business Results](#7-business-results)
+* [8. Model in Production ](#8-model-in-production)
+* [9. Conclusion](#9-conclusion)
+* [10. Learning and Future Work](#10-learning-and-future-work)
 
 # 1. Description and Business Problem
 ## 1.1 Description and Context
