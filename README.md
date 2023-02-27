@@ -58,19 +58,22 @@ In addition to the creation of this group of Insiders, some business questions m
 In this step, some aspects of the dataset were verified, such as: column names, dimensions, data types, checking and filling in missing data (NA), descriptive analysis of the data and what are its categorical variables.
 
 ### Step 02. Filtering Variables
-Checking the necessity to filter the dataset based on a variable that does not matter to the project itself.
+Checking the necessity to filter the dataset based on a variable that does not matter to the project itself. In this step we take into account some business assumptions that were previously determined.
 
 ### Step 03. Featuring Engineering
-In featuring engineering, new attributes (columns) were derived based on the original variables, enabling a better description of the phenomenon of that variable.
+In featuring engineering, new attributes (columns) were derived based on the original variables, enabling a better description of the phenomenon of that variable. 
 
 ### Step 04. Exploratory Data Analysis (EDA) and Space Study
-Exploration of Data in order to find Insights for a better understanding of the Business. Univariate, bivariate and multivariate analyzes were also performed, obtaining some statistical properties that describe them, and more importantly, the correlation between the variables.
+Exploration of Data in order to find Insights for a better understanding of the Business. Univariate, bivariate analyzes were also performed.
+
+In this step we also developed a space study so we could check how data is distribuited in different spaces, the objective here is to choose the best space for clustering the customers. At this stage we decided to use the Tree based space embedding space since this space had the best organization of data distribution.
 
 ### Step 05. Data Preparation
 Session that deals with the preparation of data so that Machine Learning algorithms can be applied. Some types of scaling and encoding were performed so that the categorical variables became numerical.
 
 ### Step 06. Hyper Parameter Fine Tuning
-Training of Machine Learning models. The model that presented the best performance against the database with applied cross-validation proceeded to the hyper parameterization of the variables of that model, aiming to optimize the generalization of the model.
+Nessa etapa nos utilizamos diferentes tipos de algoritmos de clusterização aplicada no espaço de embedding. Gerando assim uma comparação entre a qualidade de 
+
 
 ### Step 07. Model Training
 The best parameters were found that maximize model learning. These parameters were defined by using the Optuna framework for automating the optimization process of these hyperparameters. It automatically searches for and finds optimal hyperparameter values by trial and error for excellent performance.
