@@ -89,23 +89,37 @@ Planning and Implementation of the Cloud Architecture of the project.
 
 # 4. Top Insights
 
-# 5. Machine Learning Model Selection
+### H3. Customers in the INSIDERS group have a purchase value above 10% of the company's total revenue.
 
-# 6. Model Performance
+***TRUE*** - The INSIDERS group is responsible for 44.05% of the company's total revenue.
 
-# 7. Business Results
+### H4. Customers in the INSIDERS group have a purchase volume of unique products above 10% of the all company.
+***TRUE*** - The INSIDERS cluster customer has a purchase volume of unique products of 33%.
+
+### H5. Customers in the INSIDERS group have the AVG of returned products lower than the AVG of the rest of the clusters
+***FALSE*** - The Insiders group returns 3.0x more products in comparison the all dataset.
+
+
+# 5. Machine Learning Model Selection and Performance
+The following cluster models were applied in the project:
+* KMeans.
+* GMM.
+* Hierarchical clustering.
+* DBScan.
+
+These models were applied with a number of groups (k) from 2 to 22 and the best clustering algorithm was Hierarchical. However, we chose k as 10 because with this number of groups it is possible to have a good performance of the model (silhouette score) and it is easier for the marketing team to create targeted actions for each group with a not so large number of groups.
+
+*The algorithms used to create the embedding spaces were: PCA, UMAP, t-SNE and an embedding based on trees with Random Forest (final space).*
+
+# 6. Business Results
+
+# 7. Model in Production
 
 ![diagram!](diagram_final.png)
 
-7.1 Business Questions
-7.2 Revenue Business Performance
-
-# 8. Model in Production
+# 8. Conclusion
 
 
-# 9. Conclusion
-
-
-# 10. Learning and Future Work
+# 9. Learning and Future Work
 Learning
 
