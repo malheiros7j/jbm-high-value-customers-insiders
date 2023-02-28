@@ -160,7 +160,6 @@ R: An A/B Test or a Hypothesis test should be runned on next cycles to answer th
 There are a few actions that the marketing could use:
 
 
-
 * Discount
 * Purchase Prefence
 * Company Visits
@@ -170,9 +169,10 @@ There are a few actions that the marketing could use:
 * Recommend Cross-Sell
 
 ## 6.2 Metabase Dashboard with some information about the Insider's Cluster.
+![diagram2!](dashboard.png)
 
 # 7. Model in Production
-
+The final model deployment infrastructure is organized as follows
 ![diagram!](diagram_final.png)
 
 # 8. Conclusion
