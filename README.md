@@ -177,8 +177,29 @@ The final model deployment infrastructure is organized as follows
 ![diagram!](diagram_final.png)
 
 # 8. Conclusion
+From the business results, it can be concluded that the project goal was achieved. Clustering problems are generally more complex to solve, of course, because there is no response variable. Therefore, it's important to have a defined strategy for the solution approach, often based on business knowledge.
+
+The loyalty program is important to the business because the Insiders make up a large portion of the company's revenue and segmenting their customers helps the marketing team segment their customers to prioritize and take action based on their consumption to increase sales frequency and revenue.
+
+# 9. Leassons Learned
+This project was a great learning experience, in which we used different tools and approach methods to solve machine learning problems in an unsupervised way, some of the knowledge acquired:
+
+* How to implement and measure the performance of an unsupervised Data Science project.
+* How to use embedding spaces for clustering high-dimensional data with disorganized distribution.
+* How to plan a data pipeline using AWS solutions (S3, EC2, Amazon RDS) that provide a robust platform for deploying models.
+* Creating a dashboard in BI tool called Metabase and integrating it with the cloud (Amazon RDS).
+* Make a schedule to run the model in a Jupyter notebook with Papermill and Cronjob in an EC2 machine.
+* Focus on the business solution to answer the questions and facilitate the decisions that the CEO or tje marketing team need to make.
 
 
-# 9. Learning and Future Work
-Learning
+
+# 10 Future Work and Next Steps
+* Create and test more space embeddings with higher dimensions (in this project we limited ourselves to the 2D dimension).
+* Run A/B tests to verify that the cluster segmentations are correct.
+* Create a streamlit page that allows uploading of new data values.
+* Provide more information to the business team and validate more Insights.
+* Create more features that could help the model cluster customers more efficiently.
+* Create more dashboards with different information about the Insider clusters.
+
+
 
