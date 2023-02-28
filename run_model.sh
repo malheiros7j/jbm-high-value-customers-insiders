@@ -1,4 +1,4 @@
-# variable 
+# variables
 data=$(date +'%Y-%m-%d-T%H:%M:%S')
 
 # path

@@ -1,4 +1,4 @@
-# variable
+# variables
 data=$(date +'%Y-%m-%dT%H:%M:%S')
 
 
