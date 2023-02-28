@@ -1,5 +1,7 @@
-# Insiders program for an e-commerce company
-Insiders program project
+# Customer Loyalty Program for an E-Commerce
+![image1!](Customer-Loyaly-Program.png)
+
+# Insiders Program Project
 
 The following context is entirely fictional, the company, the context and the CEO. The business questions are also fictional, but have been worded to be an example of how they would be asked in a business work environment.
 
@@ -18,7 +20,8 @@ This is a data science clustering project for a company called All In One Place 
 * [6. Business Results](#6-business-results)
 * [7. Model in Production ](#7-model-in-production)
 * [8. Conclusion](#8-conclusion)
-* [9. Learning and Future Work](#9-learning-and-future-work)
+* [9. Leassons Learned](#9-leassons-learned)
+* [10. Future Work and Next Steps](#10-future-work-and-next-steps)
 
 ## 1 Description and Business Problem
 ## 1.1 Description and context
