@@ -113,6 +113,64 @@ These models were applied with a number of groups (k) from 2 to 22 and the best 
 
 # 6. Business Results
 
+## 6.1 Business Questions and Answers
+
+### Q1. Who are the people eligible to participate in the Insiders program?
+R: The people who the algorithm labeled as Insiders.
+
+### Q2. How many customers will be part of the group?
+R: Number of Costumers in the INSIDERS Cluster: 745
+
+### Q3. What are the main characteristics of these customers?
+R: Characteristics of the Insiders Cluster
+
+Number of Costumers : 745 customers - 13.1% of the total.
+
+Average Gross Revenue: U$5.924,000.
+
+Average Recency Days: 5 days.
+
+Average Quantity of Invoices: 10 invoices (buys).
+
+Average Quantity of items purchase: 3362 items.
+
+Average Quantity of products variety purchased: 239 different products.
+
+Average Frequency of Purchased Products: 0.06
+
+Average quantity of returns: 52 returns.
+
+
+### Q4. What is the percentage of revenue contribution from Insiders?
+R: GMV from Insiders 44.05%
+
+### Q5. What is the revenue expectation of this group for the coming months?
+R: This question won't be answered right now because we would need a time series organization to predict the future revenue.
+
+### Q6. What are the conditions for a person to be eligible for Insiders?
+R: The model will define for us. So we would need to create a schedule to run the model monthly and then collect the customer and their cluster assignment each month. We would then compare the previous and current cluster assignment so that we know who moved, stayed, or joined the INSIDERS group.
+
+### Q7. What are the conditions for a person to be removed from Insiders?
+R: The model will define for us too, just like in the previous question.
+
+### Q8. What is the guarantee that the Insiders program is better than the rest of the base?
+R: An A/B Test or a Hypothesis test should be runned on next cycles to answer this question properly
+
+### Q9. What actions can the marketing team take to increase revenue?
+There are a few actions that the marketing could use:
+
+
+
+* Discount
+* Purchase Prefence
+* Company Visits
+* Exclusive Content
+* Free Shipping
+* More investment in marketing for some specific groups
+* Recommend Cross-Sell
+
+## 6.2 Metabase Dashboard with some information about the Insider's Cluster.
+
 # 7. Model in Production
 
 ![diagram!](diagram_final.png)
