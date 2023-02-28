@@ -66,29 +66,28 @@ In featuring engineering, new attributes (columns) were derived based on the ori
 ### Step 04. Exploratory Data Analysis (EDA) and Space Study
 Exploration of Data in order to find Insights for a better understanding of the Business. Univariate, bivariate analyzes were also performed.
 
-In this step we also developed a space study so we could check how data is distribuited in different spaces, the objective here is to choose the best space for clustering the customers. At this stage we decided to use the Tree based space embedding space since this space had the best organization of data distribution.
+In this step we also developed a space study so we could check how data is distribuited in different spaces, the objective here is to choose the best space for clustering the customers. At this stage we decided to use the Tree based space embedding space since this space had the best organization of data distribution. After this decision, we carried out a brief study of feature selection and hyper-parameterization of the data space, ending this step.
 
-### Step 05. Data Preparation
-Session that deals with the preparation of data so that Machine Learning algorithms can be applied. Some types of scaling and encoding were performed so that the categorical variables became numerical.
+### Step 05. Data Preparation & Feature Selection
+Session that deals with the preparation of data and selecting the best features so that Machine Learning algorithms can be applied efficiently.
 
 ### Step 06. Hyper Parameter Fine Tuning
-Nessa etapa nos utilizamos diferentes tipos de algoritmos de clusterização aplicada no espaço de embedding. Gerando assim uma comparação entre a qualidade de 
-
+In this phase, we applied some specific clustering algorithms and compared their performance using the silhouette metric to check which type of algorithm and which number of "k" (number of groups to be clustered) is ideal for our project. It should be noted that in this case we made the selection not only based on gross performance, but also took into account the facilitation that this number of groups would bring to the business decision.
 
 ### Step 07. Model Training
-The best parameters were found that maximize model learning. These parameters were defined by using the Optuna framework for automating the optimization process of these hyperparameters. It automatically searches for and finds optimal hyperparameter values by trial and error for excellent performance.
+Creation of the selected Machine Learning Model and measure its perfomance based on the sillhouete metric value.
 
 ### Step 08. Cluster Analysis
-In this step, the performance of the model was analyzed from a business perspective, and translated into business value.
+The final visualization of the clustered model on top of the data space and the definition of the profile(attributes) of the clusters created by the model.
 
-### Step 9. Data Analysis Exploration Post Cluste Profile
-Publication of the model in a production environment in the cloud (Heroku) so that people or services can access the results and thus improve the company's business decision.
+### Step 09. Post Profile Data Analysis
+Creating a mind map of business hypotheses and creating and validating those hypotheses and then answering the business questions that were asked at the beginning of the project and what actions should be recommended to the marketing team.
 
 ### Step 10. Model to Deploy Production (AWS)
+Planning and Implementation of the Cloud Architecture of the project.
 
 
 # 4. Top Insights
-
 
 # 5. Machine Learning Model Selection
 
@@ -105,7 +104,7 @@ Publication of the model in a production environment in the cloud (Heroku) so th
 
 
 # 9. Conclusion
-acquiring the auto insurance is needed to reach out to only 40% of the customers in the database.
+
 
 # 10. Learning and Future Work
 Learning
